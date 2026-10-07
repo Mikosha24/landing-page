@@ -19,10 +19,9 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    padding-left:  150px;
-    padding-right:  150px;
+    
     padding-bottom: 75px;
-    gap: 50px;
+    gap: 75px;
     
 }
 
@@ -36,6 +35,7 @@ body{
 
 .header h1{
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header ul{
@@ -66,6 +66,8 @@ body{
 .first-main-left{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .first-main-left h2{
@@ -82,7 +84,8 @@ body{
 
 
 .first-main-left, .first-main-right{
-    min-width: 350px;
+    max-width: 650px;
+    flex: 1;
 }
 
 .first-main-left button{
@@ -92,4 +95,53 @@ body{
     padding: 8px 16px;
     border: #3882F6;
     border-radius: 7px;
+    
+}
+
+/* Second Section */
+
+.second{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.second h3{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.second-main{
+    display: flex;
+    
+    align-items: center;
+    gap:16px;
+}
+
+.second-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.blue-square {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3284ff;
+  border-radius: 9px;
+}
+
+
+/* Third Section */
+
+.third{
+    background-color: #E5E7EB;
 }
